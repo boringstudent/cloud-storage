@@ -1,0 +1,68 @@
+2026-08-26 23:06:04.6813-INFO v2rayN start up | v2rayN - V7.24.4 - X64 | C:\Users\Administrator\Desktop\v2rayN-windows-64\ | C:\Users\Administrator\Desktop\v2rayN-windows-64\v2rayN.exe | Microsoft Windows NT 10.0.19045.0
+2026-08-26 23:06:04.7530-INFO MigrateProfileExtraGroup: No items to migrate.
+2026-08-26 23:06:07.4408-INFO Setup Scheduled Tasks
+2026-08-26 23:06:08.7232-DEBUG TaskScheduler_UnobservedTaskException,TaskExceptionHolder_UnhandledException (Failed to find a registration for an Interaction.)
+2026-08-26 23:06:08.7232-DEBUG 
+2026-08-26 23:06:08.7232-ERROR ReactiveUI.UnhandledInteractionException`2[System.String,System.Reactive.Unit]: Failed to find a registration for an Interaction.
+2026-08-26 23:06:29.5734-INFO OnClosing -> WindowClosing
+2026-08-26 23:07:07.4520-INFO Execute update subscription
+2026-08-26 23:07:10.0606-INFO Update subscription end. 更新订阅结束
+2026-08-26 23:07:11.0905-INFO Execute check update
+2026-08-26 23:12:33.5889-INFO Execute update subscription
+2026-08-26 23:12:37.7611-INFO Update subscription end. 更新订阅结束
+2026-08-26 23:17:38.8214-INFO Execute update subscription
+2026-08-26 23:17:42.5976-INFO Update subscription end. 更新订阅结束
+2026-08-26 23:22:43.6580-INFO Execute update subscription
+2026-08-26 23:22:46.5667-INFO Update subscription end. 更新订阅结束
+2026-08-26 23:27:47.6276-INFO Execute update subscription
+2026-08-26 23:27:50.7214-INFO Update subscription end. 更新订阅结束
+2026-08-26 23:32:51.7784-INFO Execute update subscription
+2026-08-26 23:32:55.5229-INFO Update subscription end. 更新订阅结束
+2026-08-26 23:35:06.0527-INFO OnClosing -> WindowClosing
+2026-08-26 23:37:56.6615-INFO Execute update subscription
+2026-08-26 23:37:57.7546-DEBUG DownloadService,net_http_ssl_connection_failed
+2026-08-26 23:37:57.7594-DEBUG    at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at ServiceLib.Services.DownloadService.DownloadStringAsync(String url, IWebProxy webProxy, String userAgent, Int32 timeout) in D:\a\v2rayN\v2rayN\v2rayN\ServiceLib\Services\DownloadService.cs:line 200
+2026-08-26 23:37:57.7594-ERROR System.IO.IOException: net_io_eof
+2026-08-26 23:38:01.8249-DEBUG DownloadService,net_http_ssl_connection_failed
+2026-08-26 23:38:01.8249-DEBUG    at ServiceLib.Helper.DownloaderHelper.<>c.<DownloadStringAsync>b__3_1(Object sender, AsyncCompletedEventArgs value) in D:\a\v2rayN\v2rayN\v2rayN\ServiceLib\Helper\DownloaderHelper.cs:line 48
+   at Downloader.AbstractDownloadService.OnDownloadFileCompleted(AsyncCompletedEventArgs e) in /home/runner/work/Downloader/Downloader/src/Downloader/AbstractDownloadService.cs:line 408
+   at Downloader.DownloadService.SendDownloadCompletionSignal(DownloadStatus state, Exception error) in /home/runner/work/Downloader/Downloader/src/Downloader/DownloadService.cs:line 275
+   at Downloader.DownloadService.StartDownload(Boolean forceBuildStorage, String filename) in /home/runner/work/Downloader/Downloader/src/Downloader/DownloadService.cs:line 156
+   at Downloader.AbstractDownloadService.DownloadFileTaskAsync(String[] urls, CancellationToken cancellationToken) in /home/runner/work/Downloader/Downloader/src/Downloader/AbstractDownloadService.cs:line 202
+   at ServiceLib.Helper.DownloaderHelper.DownloadStringAsync(IWebProxy webProxy, String url, String userAgent, Int32 timeout) in D:\a\v2rayN\v2rayN\v2rayN\ServiceLib\Helper\DownloaderHelper.cs:line 55
+   at ServiceLib.Helper.DownloaderHelper.DownloadStringAsync(IWebProxy webProxy, String url, String userAgent, Int32 timeout) in D:\a\v2rayN\v2rayN\v2rayN\ServiceLib\Helper\DownloaderHelper.cs:line 60
+   at ServiceLib.Services.DownloadService.DownloadStringViaDownloader(String url, IWebProxy webProxy, String userAgent, Int32 timeout) in D:\a\v2rayN\v2rayN\v2rayN\ServiceLib\Services\DownloadService.cs:line 226
+2026-08-26 23:38:01.8249-ERROR System.IO.IOException: net_io_eof
+2026-08-26 23:38:06.9136-INFO Update subscription end. 更新订阅结束
+2026-08-26 23:43:08.0635-INFO Execute update subscription
+2026-08-26 23:43:10.9427-INFO Update subscription end. 更新订阅结束
+2026-08-26 23:45:28.9764-INFO OnClosing -> WindowClosing
+2026-08-26 23:48:12.0639-INFO Execute update subscription
+2026-08-26 23:48:13.2446-DEBUG DownloadService,net_http_ssl_connection_failed
+2026-08-26 23:48:13.2446-DEBUG    at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at ServiceLib.Services.DownloadService.DownloadStringAsync(String url, IWebProxy webProxy, String userAgent, Int32 timeout) in D:\a\v2rayN\v2rayN\v2rayN\ServiceLib\Services\DownloadService.cs:line 200
+2026-08-26 23:48:13.2446-ERROR System.IO.IOException: net_io_eof
+2026-08-26 23:48:21.4871-INFO Update subscription end. 更新订阅结束
+2026-08-26 23:53:22.5613-INFO Execute update subscription
+2026-08-26 23:53:24.7274-DEBUG CoreHandler,Arg_NullReferenceException
+2026-08-26 23:53:24.7274-DEBUG    at ServiceLib.Manager.CoreManager.CoreStop() in D:\a\v2rayN\v2rayN\v2rayN\ServiceLib\Manager\CoreManager.cs:line 160
+2026-08-26 23:53:26.0271-INFO Update subscription end. 更新订阅结束
+2026-08-26 23:58:27.1409-INFO Execute update subscription
+2026-08-26 23:58:31.3652-INFO Update subscription end. 更新订阅结束
