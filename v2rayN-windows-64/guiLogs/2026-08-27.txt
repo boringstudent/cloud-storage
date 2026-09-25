@@ -1,0 +1,37 @@
+2026-08-27 00:03:32.4459-INFO Execute update subscription
+2026-08-27 00:03:35.5494-INFO Update subscription end. 更新订阅结束
+2026-08-27 00:08:36.6365-INFO Execute update subscription
+2026-08-27 00:08:39.9307-INFO Update subscription end. 更新订阅结束
+2026-08-27 00:13:40.9916-INFO Execute update subscription
+2026-08-27 00:13:44.1470-INFO Update subscription end. 更新订阅结束
+2026-08-27 00:18:45.2220-INFO Execute update subscription
+2026-08-27 00:18:46.3183-DEBUG DownloadService,net_http_ssl_connection_failed
+2026-08-27 00:18:46.3183-DEBUG    at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.InjectNewHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.<SendAsync>g__CreateHandlerAndSendAsync|115_0(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at ServiceLib.Services.DownloadService.DownloadStringAsync(String url, IWebProxy webProxy, String userAgent, Int32 timeout) in D:\a\v2rayN\v2rayN\v2rayN\ServiceLib\Services\DownloadService.cs:line 200
+2026-08-27 00:18:46.3183-ERROR System.IO.IOException: net_io_eof
+2026-08-27 00:18:56.8142-INFO Update subscription end. 更新订阅结束
+2026-08-27 00:23:57.8623-INFO Execute update subscription
+2026-08-27 00:24:02.5610-INFO Update subscription end. 更新订阅结束
+2026-08-27 00:29:03.6389-INFO Execute update subscription
+2026-08-27 00:29:06.5115-INFO Update subscription end. 更新订阅结束
+2026-08-27 00:34:07.5560-INFO Execute update subscription
+2026-08-27 00:34:11.7633-INFO Update subscription end. 更新订阅结束
+2026-08-27 00:39:12.8182-INFO Execute update subscription
+2026-08-27 00:39:16.7686-INFO Update subscription end. 更新订阅结束
+2026-08-27 00:44:09.7097-INFO OnClosing -> WindowClosing
+2026-08-27 00:44:17.8901-INFO Execute update subscription
+2026-08-27 00:44:21.1939-INFO Update subscription end. 更新订阅结束
+2026-08-27 00:49:22.3895-INFO Execute update subscription
+2026-08-27 00:49:26.1071-INFO Update subscription end. 更新订阅结束
+2026-08-27 00:54:27.2259-INFO Execute update subscription
+2026-08-27 00:54:30.0288-INFO Update subscription end. 更新订阅结束
+2026-08-27 00:58:48.8771-INFO OnClosing -> OSShutdown
+2026-08-27 00:58:48.8771-INFO AppExitAsync Begin
